@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: utxj-workshop-api
+
+resources:
+  - namespace.yaml
+  - deployment.yaml
+  - service.yaml
+
+images:
+  - name: utxj-workshop-api
+    newName: ghcr.io/nochebuenadev/utxj-workshop-api
+    newTag: main-1b9a2bf
