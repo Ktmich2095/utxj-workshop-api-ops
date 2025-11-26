@@ -11,4 +11,4 @@ resources:
 images:
   - name: utxj-workshop-api
     newName: ghcr.io/nochebuenadev/utxj-workshop-api
-    newTag: main-a5b88f4
+    newTag: main-877568f
